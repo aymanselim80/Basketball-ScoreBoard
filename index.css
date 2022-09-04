@@ -1,0 +1,71 @@
+body {
+    background-color :#1B244A;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.title {
+    position: fixed; 
+    width: 149px;
+     height: 36px;
+     top: 68px;
+ 
+     font-family: 'Verdana';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 127px;
+     /* identical to box height, or 90% */
+ 
+     text-align: center;
+ 
+     color: #EEEEEE;
+}
+.square {
+    position: fixed;
+    width: 155px;
+    height: 120px;
+    top: 200px;
+    
+    background-color: #080001;
+    line-height: 127px;
+        }
+
+.resultText{
+    position: fixed; 
+    width: 117px;
+    height: 120px;
+    top: 116px;
+
+    font-family: myFirstFont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+        
+.buttons {
+    position: fixed;
+    top: 340px;
+}
+.addButtons {
+font-family: myFirstFont;
+background-color: transparent;
+border-color: #9AABD8;
+color: #9AABD8;
+width: 45px;
+height: 45px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(newFont.ttf);
+               }
